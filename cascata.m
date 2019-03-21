@@ -17,8 +17,8 @@ a = [1,alpha];
 figure;freqz(b,a);
 
 
-%for k =0.1 : 0.2 : 1
-k = 0.95;
+for k =0.1 : 0.2 : 1
+%k = 0.95;
 %FUNZIONE1 MODALITA' OPERTATIVA H (segno +)
 b1 = [(2+k+k*alpha),(2*alpha+k+k*alpha)];
 a1 = [2,(2*alpha)];
@@ -42,7 +42,7 @@ subplot(2,1,2);
 plot(w2/pi,radtodeg(phi));grid on;hold on
 title('fase (deg)')
 
-%end
+end
 
 %CONSIDERAZIONI 
 % la cascata delle due funzioni L e H ha l effetto di amplificare le
