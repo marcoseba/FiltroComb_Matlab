@@ -1,5 +1,6 @@
 %prova cascata 
-%disegno diagramma modulo fase funzioni in cascata
+% disegno diagramma modulo fase delle funzioni
+% in cascata al variare di k
 
 clear all
 close all
@@ -44,7 +45,7 @@ title('fase (deg)')
 
 end
 
-%CONSIDERAZIONI 
+% CONSIDERAZIONI 
 % la cascata delle due funzioni L e H ha l effetto di amplificare le
 % freq precedenti a fc mentre attenua le frequenze successive a fc
 % questo effetto è tanto piu maggiore tanto piu è alto il valore di k
