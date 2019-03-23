@@ -6,3 +6,4 @@
 - punto2_parte1 -> descrive il comportamento della funzione implementata al variare del parametro fc.
 - punto2_parte2 -> descrive il comportamento della funzione implementata al variare del parametro k.
 - cascata -> disegna diagramma modulo e fase della cascata di due funzioni1 una tipo L e una tipo H al variare del parametro k. utile per il punto 3.
+- punto3_4 -> applica un segnale alla cascata di due funzioni1 una tipo L e una tipo H, valuta inotre il ritardo di gruppo.
