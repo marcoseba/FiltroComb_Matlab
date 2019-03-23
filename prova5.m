@@ -52,4 +52,3 @@ Btot = conv(Bsomma,Bdiff);
 figure;freqz(Btot,Atot); title('cascata')
 
 
-
