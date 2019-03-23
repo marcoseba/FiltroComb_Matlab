@@ -10,8 +10,8 @@ x=0.4*rand(10000,1); % Additive white Gaussian noise
 
 %parametri da impostare
 r = 0.1;  %[0,0.5];
-k = 0.99;  %[0,1]; non sicuro!
-flag = 'H';  %sceglier H oppure L
+k = 0.99;  %[0,1]; non sicuro sul range!
+flag = 'L';  %sceglier H oppure L
 
 fs = 48000;
 fc = r*fs;

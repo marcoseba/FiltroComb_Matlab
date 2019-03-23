@@ -12,10 +12,18 @@ fc = 0.5*(fs/2); %normalizzo rispetto a fs/2
 k = 0.95;
 
 %PUNTO 3 
-figure;spectrogram(x,512,256,512);title('segnale ingresso');
+figure
+spectrogram(x,512,256,512);
+caxis( [-120 -20] ) %blocca i colori nello spettro di potenza
+title('segnale ingresso');
+
 y1 = funzione1(x,'L',fc,fs,k);
 y = funzione1(y1,'H',fc,fs,k);
-figure;spectrogram(y,512,256,512);title('segnale uscita');
+
+figure
+spectrogram(y,512,256,512);
+caxis( [-120 -20] )
+title('segnale uscita');
 
 
 % F.D.T. COMPLESSIVA CASCATA
