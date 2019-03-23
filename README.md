@@ -7,4 +7,6 @@
 - punto2_parte2 -> descrive il comportamento della funzione implementata al variare del parametro k.
 - cascata -> disegna diagramma modulo e fase della cascata di due funzioni1 una tipo L e una tipo H al variare del parametro k. utile per il punto 3.
 - punto3_4 -> applica un segnale alla cascata di due funzioni1 una tipo L e una tipo H, valuta inotre il ritardo di gruppo.
-- myAllPass -> calcola i vettori dei coeff a,b di un filtro all pass di grado scelto, distribuendo i poli equamente sul cerchi unitario con modulo scelto.
+- myAllPass -> calcola i vettori dei coeff a,b di un filtro all pass di grado scelto, distribuendo i poli equamente sul cerchio unitario con modulo scelto.
+- funzione5 -> estensione della funzione1 al caso di un all-pass di grado generico N, con mia implementazione filtro IIR.
+- funzione5v2 -> estensione della funzione1 al caso di un all-pass di grado generico N, implementando direttemete il circuito utilizzando la funzione preimplementata matlab "filter".
